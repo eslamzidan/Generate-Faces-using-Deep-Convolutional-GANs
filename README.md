@@ -6,7 +6,7 @@ In this project, you'll define and train a DCGAN on a dataset of faces. Your goa
 The project will be broken down into a series of tasks from loading in data to defining and training adversarial networks. At the end of the notebook, you'll be able to visualize the results of your trained Generator to see how it performs; your generated samples should look like fairly realistic faces with small amounts of noise.
 
 # Get the Data
-You'll be using the CelebFaces Attributes Dataset (CelebA) to train your adversarial networks.
+You'll be using the CelebFaces Attributes Dataset (CelebA) to train your adversarial networks : http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html .
 
 This dataset is more complex than the number datasets (like MNIST or SVHN) you've been working with, and so, you should prepare to define deeper networks and train them for a longer time to get good results. It is suggested that you utilize a GPU for training.
 
@@ -15,6 +15,6 @@ Since the project's main focus is on building the GANs, we've done some of the p
 
 
 
-If you are working locally, you can download this data by clicking here
+If you are working locally, you can download this data by clicking here :https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip
 
-This is a zip file that you'll need to extract in the home directory of this notebook for further loading and processing. After extracting the data, you should be left with a directory of data processed_celeba_small/
+This is a zip file that you'll need to extract in the home directory of this notebook for further loading and processing. After extracting the data, you should be left with a directory of data #  processed_celeba_small/
